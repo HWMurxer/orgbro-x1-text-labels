@@ -26,6 +26,16 @@ an already paired printer through its Bluetooth Classic serial port (SPP).
 - the outgoing serial COM port created by Windows
 - Python 3.11 or newer when running from source
 
+## Windows download
+
+Users who do not want to install Python can download
+`ORGBRO-X1-Textetiketten.exe` from the GitHub **Releases** page. The executable
+is built from the source in this repository. A SHA-256 checksum is supplied
+with every release.
+
+The executable is currently not code-signed. Windows may therefore identify
+the publisher as unknown.
+
 ## Running from source
 
 ```powershell
